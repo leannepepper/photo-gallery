@@ -1,0 +1,32 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+.search-label {
+    display: block;
+    color: transparent;
+}
+.search-container {
+    margin: 0 auto; 
+    width: 50%;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 25px 0;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+input:focus {
+    background-color: lightgoldenrodyellow;
+    outline: none;
+}
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.gallery-container a {
+    margin: 20px;
+}

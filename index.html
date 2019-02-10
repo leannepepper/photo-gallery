@@ -2,13 +2,13 @@
 <html lang="en">
     <head>
         <title>Interactive Photo Gallery</title>
-        <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
-    <body>
+    <body class="main">
         <div class="search-container">
-            <label for="search"> Search by Keyword</label>
-            <input type="text" id= "search" placeholder="Search...">
+            <label for="search" class="search-label"> Search by Keyword</label>
+            <input type="text" onkeyup="searchFunction()" id= "search" placeholder="Search...">
         </div>
         <div class="gallery-container">
             <a class="img-container" href="photos/01.jpg" data-lightbox= "gallery-image" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields." data-alt="Hay Bales">
@@ -62,4 +62,5 @@
         </div>
     </body>
     <script type="text/javascript" src="lightbox-jquery-plugin/js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </html>
